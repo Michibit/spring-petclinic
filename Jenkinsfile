@@ -9,7 +9,9 @@ pipeline {
      }       
   }       
   steps {
+       sh "ciao"
        sh 'mvn clean install'
+       echo "prova"
        }
      }
    }
